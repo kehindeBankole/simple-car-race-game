@@ -1,0 +1,42 @@
+
+
+#track{
+        background-image: url('../images/road.jpg');
+        height:330px;
+        border-right : 10px dashed white;
+        
+}
+#car2{
+        top:100px;
+}
+#car1{
+        top:30px;
+}
+.cars{
+        display:block;
+        position: relative;
+}
+.raceinfo{
+        width:80%;
+        height:200px;
+        background-color:grey;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-style: italic;
+        font-size:20px;
+        border-radius:25px;
+}
+#go{
+        color:green;
+        font-size: 40px;
+        width:10%;
+        margin-bottom:12px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color:white;
+        border:2px solid green;
+        
+}
+#go:hover{
+        background-color: green;
+        color:white;
+        transition:0.5s
+}
